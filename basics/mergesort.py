@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 import ast  # To safely parse string input as a Python list
 
+=======
+
+import ast  # To safely parse string input as a Python list
+
+>>>>>>> 235c221 (new)
 def debug_print(debug_msg=None, **kwargs):
     if debug_msg:
         print(debug_msg)
@@ -53,4 +59,8 @@ if __name__ == "__main__":
         quit(1)
 
     sorted_list = mergesort(value_list)
+<<<<<<< HEAD
     print("Sorted list:", sorted_list)
+=======
+    print("Sorted list:", sorted_list)
+>>>>>>> 235c221 (new)
